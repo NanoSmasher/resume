@@ -1,0 +1,128 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background: #f0f0f0;
+    overflow: auto !important; /*To prevent modals from removing scrollbar*/
+}
+
+/* Fixed top styling */
+
+#avatar {
+    position: fixed;
+    width: 100%;
+    margin-top: -9rem;
+    z-index: 0;
+}
+
+#avatar .frame {
+    padding: 1rem;
+}
+
+#avatar img {
+    border: 1px solid;
+}
+
+.big-space {
+    padding-bottom: 10rem;
+}
+
+#fixed-top{
+    position: fixed;
+    top: 1rem;
+    width: 100%;
+    z-index: 0;
+}
+
+#fixed-bot {
+    z-index: 0;
+    display: none;
+}
+
+.name {
+    margin: 0px 0px 0px 5px;
+    font-weight: 200;
+    font-size: 4.1em;
+}
+
+@media only screen and (max-width: 400px) {
+    .name { font-size: 3.4em;}
+}
+
+.social {
+    margin-left: 5px;
+}
+
+.social img {
+	padding: 6px;
+}
+
+/* Main body styling */
+
+main {
+    z-index: 1;
+    flex: 1 0 auto;
+}
+
+main h5 {
+    background: rgba(144, 207, 231,0.3) none repeat scroll 0% 0%;
+    margin: 35px -20px 35px -20px; /*The 35px was to make sure the blue headers did not break at a resolution of 4k monitors */
+    padding: 15px 20px 15px 20px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+main h5:first-child {
+    margin-top: -20px;
+}
+
+main h5 img {
+    height: 32px;
+    margin-right: 5px;
+}
+
+main .post > p {
+    font-weight: 500;
+}
+
+.card-panel > p > img {
+    position: relative;
+    top: 3px;
+}
+
+main .post > p strong {
+    float: right;
+    padding-left: 10px;
+    font-weight: 600;
+}
+
+main li {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+main ul {
+    display: none;
+}
+
+.page-footer button {
+    position: relative;
+    bottom: -2.5rem;
+}
+
+.card-content i {
+    margin-left: 0px;
+    padding-top: 12px;
+}
+
+.card .card-action a {
+    cursor: pointer;
+}
+/* Fixed bottom style */

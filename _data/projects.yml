@@ -1,0 +1,12 @@
+-  name: 'MAKE website'
+   ids: ['mse','ece']
+   img: 'make.png'
+   des: 'UofT MAKE Club website'
+   url: 'http://github.com/nanosmasher/make.skule.ca'
+   date: 'August 2015'
+-  name: 'Concrete Canoe'
+   ids: ['mse','ece']
+   img: 'cc.png'
+   des: 'UofT Concrete Canoe Club website'
+   url: 'http://github.com/nanosmasher/canoe.skule.ca'
+   date: 'December 2015'

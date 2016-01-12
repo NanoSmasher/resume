@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+{% for post in site.posts %}
+<div id="{{post.tid}}" class="row resume">
+    <div class="col s12 m8 offset-m2">
+        <div class="card-panel post">
+        {{post.content}}
+        </div>
+    </div>
+</div>
+{% endfor %}

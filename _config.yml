@@ -1,0 +1,21 @@
+### Site settings ###
+
+title: "Resume"
+email: "make@make.skule.ca"
+name: "Henry Lu"
+url: "https://github.com/nanosmasher"
+baseurl: "/resume"
+markdown: "kramdown"
+permalink: '/resume/:title/'
+relative_permalinks: "false"
+exclude: ["LICENSE_MATERIALIZE","README.md","README_MATERIALIZE.md"]
+
+accent: "blue"
+description: "Resume for Henry Lu"
+starter: "mse"
+
+social:
+    -   name: "facebook"
+        url: "https://facebook.com/henry.lu.5030"
+    -   name: "github"
+        url: "https://github.com/nanosmasher"
