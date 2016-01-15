@@ -57,14 +57,14 @@ body {
 	padding: 6px;
 }
 
-/* Main body styling */
+/* .resume body styling */
 
 main {
     z-index: 1;
     flex: 1 0 auto;
 }
 
-main h5 {
+.resume h5 {
     background: rgba(144, 207, 231,0.3) none repeat scroll 0% 0%;
     margin: 35px -20px 35px -20px; /*The 35px was to make sure the blue headers did not break at a resolution of 4k monitors */
     padding: 15px 20px 15px 20px;
@@ -79,16 +79,16 @@ main h5 {
     align-items: center;
 }
 
-main h5:first-child {
+.resume h5:first-child {
     margin-top: -20px;
 }
 
-main h5 img {
+.resume h5 img {
     height: 32px;
     margin-right: 5px;
 }
 
-main .post > p {
+.resume .post > p {
     font-weight: 500;
 }
 
@@ -97,19 +97,23 @@ main .post > p {
     top: 3px;
 }
 
-main .post > p strong {
+.resume .post > p strong {
     float: right;
     padding-left: 10px;
     font-weight: 600;
 }
 
-main li {
+.resume li {
     list-style-type: square;
     margin-left: 20px;
 }
 
-main ul {
-    display: none;
+.resume ul {
+    margin-left: 20px;
+}
+
+.resume p > img {
+    vertical-align: text-bottom;
 }
 
 .page-footer button {
