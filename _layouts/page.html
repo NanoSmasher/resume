@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body>
+    {% include top.html %}
+    <main>
+    {% for post in site.posts %}
+		<div id="{{post.tid}}" class="row resume">
+			<div class="col s12 m8 offset-m2">
+				<div class="card-panel post">
+				{{post.content}}
+				</div>
+			</div>
+		</div>
+	{% endfor %}
+    </main>
+    {% include bottom.html %}
+    {% include footer.html %}
+</body>
+</html>
